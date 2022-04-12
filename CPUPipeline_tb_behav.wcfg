@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CPUPipeline_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CPUPipeline_tb" />
+            <top_module name="\$unit_alu_sv " />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="79641666fs"></ZoomStartTime>
+      <ZoomEndTime time="80077667fs"></ZoomEndTime>
+      <Cursor1Time time="80005000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="121"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wave_markers>
+      <marker time="58000" label="" />
+      <marker time="74000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/CPUPipeline_tb/ledData" type="array">
+      <obj_property name="ElementShortName">ledData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ledData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/syscall/eret" type="array">
+      <obj_property name="ElementShortName">eret[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eret[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/ram/data[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/ram/data[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/ram/data[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/ram/data[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/ram/data[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/regfile/regs" type="array">
+      <obj_property name="ElementShortName">regs[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/ID" type="array">
+      <obj_property name="ElementShortName">ID</obj_property>
+      <obj_property name="ObjectShortName">ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/EX.PC" type="array">
+      <obj_property name="ElementShortName">.PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.PC[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/EX.sig.irOp" type="array">
+      <obj_property name="ElementShortName">.irOp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">.irOp[5:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/EX" type="array">
+      <obj_property name="ElementShortName">EX</obj_property>
+      <obj_property name="ObjectShortName">EX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/MEM" type="array">
+      <obj_property name="ElementShortName">MEM</obj_property>
+      <obj_property name="ObjectShortName">MEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/WB" type="array">
+      <obj_property name="ElementShortName">WB</obj_property>
+      <obj_property name="ObjectShortName">WB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/intAcc" type="array">
+      <obj_property name="ElementShortName">intAcc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">intAcc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/intLoad" type="logic">
+      <obj_property name="ElementShortName">intLoad</obj_property>
+      <obj_property name="ObjectShortName">intLoad</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/intRet" type="logic">
+      <obj_property name="ElementShortName">intRet</obj_property>
+      <obj_property name="ObjectShortName">intRet</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUPipeline_tb/cpu/EPC" type="array">
+      <obj_property name="ElementShortName">EPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EPC[31:0]</obj_property>
+   </wvobject>
+</wave_config>
